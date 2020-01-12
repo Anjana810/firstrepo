@@ -6,10 +6,9 @@ pipeline {
         echo 'Build the Buzz application here'
       }
     }
-    stage('Buzz Test') {
+    stage('Buzz Unit tests') {
       steps {
         echo 'Run unit tests'
-        echo 'Run regression tests'
       }
     }
   }

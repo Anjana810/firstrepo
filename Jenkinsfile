@@ -18,5 +18,10 @@ pipeline {
         echo 'Send email notifications if the test fail '
       }
     }
+    stage('Buzz Deploy') {
+      steps {
+        echo 'Deploy to staging server'
+      }
+    }
   }
 }
